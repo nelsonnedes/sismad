@@ -1,145 +1,117 @@
-# SISMAD - Sistema para Madeireiras
+# SISMAD - Sistema de Gestão Para o Segmento Madeireiro
 
-Sistema de gestão para empresas que trabalham com madeira serrada, com funcionalidades de controle de estoque, orçamentos, romaneios e relatórios.
+## 📋 Descrição
+SISMAD é um sistema web desenvolvido para gestão completa de empresas do segmento madeireiro. O sistema oferece funcionalidades para controle de romaneios, orçamentos, cadastro de clientes e espécies de madeira, além de relatórios detalhados.
 
-## Visão Geral
+## 🚀 Funcionalidades Principais
 
-SISMAD é uma aplicação web desenvolvida para atender às necessidades de empresas que trabalham com madeira serrada, oferecendo ferramentas para controle de estoque, orçamentos, romaneios (documentos de transporte) e relatórios gerenciais. O sistema foi projetado com foco na facilidade de uso e na precisão dos cálculos de volumes em metros cúbicos.
+- **Romaneios**
+  - Romaneio Toda Largura (TL)
+  - Romaneio Pacote (PC)
+  - Romaneio Peso (PES)
+  - Impressão de romaneios com diferentes formatos
+  - Resumos por espécie e tipo de bitola
 
-## Principais Características
+- **Orçamentos**
+  - Criação e gestão de orçamentos
+  - Cálculos automáticos de volume e valores
+  - Impressão de orçamentos
 
-- Layout responsivo, adaptável a diferentes dispositivos
-- Sistema de temas padronizado e personalizável
-- Integração com banco de dados Firebase para armazenamento e autenticação
-- Sistema seguro de autenticação e controle de acesso
-- Interface moderna e intuitiva
-- Cálculos precisos de volumes em metros cúbicos para diferentes tipos de madeira
+- **Cadastros**
+  - Gestão de clientes
+  - Cadastro de espécies de madeira
+  - Controle de usuários
 
-## Módulos do Sistema
+## 💻 Requisitos do Sistema
 
-- **Dashboard**: Visão geral das informações mais importantes do sistema
-- **Cadastros**: Gerenciamento de clientes, espécies de madeira e outros dados cadastrais
-- **Orçamentos**: Criação e gestão de orçamentos para clientes
-- **Romaneios**: Documentos de transporte e entrega de madeira
-  - Romaneio Toda Largura (TL): para peças de madeira de largura variável
-  - Romaneio Pacote (PC): para pacotes de madeira
-  - Romaneio Cubagem em Pés (PES): para medidas em pés
-  - Romaneio Toras (TR): para toras de madeira
-- **Relatórios**: Geração de relatórios gerenciais e operacionais
-- **Configurações**: Personalização do sistema e configurações de usuário
+- Node.js 16.x ou superior
+- NPM 8.x ou superior
+- Navegador web moderno (Chrome, Firefox, Edge)
+- Conexão com internet para acesso ao Firebase
 
-## Tecnologias Utilizadas
-
-- **React.js com TypeScript**: para o desenvolvimento da interface de usuário
-- **Styled Components**: para estilização dos componentes e sistema de temas
-- **Firebase**: para banco de dados, autenticação e armazenamento
-- **React Router**: para gerenciamento de rotas da aplicação
-- **Context API**: para gerenciamento de estado global
-
-## Execução do Projeto
-
-### Pré-requisitos
-
-- Node.js (versão 14 ou superior)
-- npm ou yarn
-
-### Instalação
+## 🛠️ Instalação
 
 1. Clone o repositório:
-   ```
-   git clone https://github.com/seu-usuario/sismad.git
-   ```
+```bash
+git clone https://github.com/nelsonnedes/sismad.git
+```
 
-2. Acesse a pasta do projeto:
-   ```
-   cd sismad/sismad-app
-   ```
+2. Acesse o diretório do projeto:
+```bash
+cd sismad
+```
 
 3. Instale as dependências:
-   ```
-   npm install
-   ```
+```bash
+npm install
+```
 
-4. Inicie o servidor de desenvolvimento:
-   ```
-   npm start
-   ```
+4. Configure as variáveis de ambiente:
+   - Crie um arquivo `.env` na raiz do projeto
+   - Adicione as configurações do Firebase:
+```env
+REACT_APP_FIREBASE_API_KEY=sua_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=seu_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=seu_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=seu_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=seu_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=seu_app_id
+```
 
-5. Acesse o sistema no navegador:
-   ```
-   http://localhost:3000
-   ```
+5. Inicie o servidor de desenvolvimento:
+```bash
+npm start
+```
 
-### Estrutura de Pastas
+## 📦 Estrutura do Projeto
 
 ```
-sismad-app/
-├── public/
+sismad/
 ├── src/
-│   ├── components/       # Componentes reutilizáveis
-│   │   ├── cadastros/    # Páginas de cadastros
-│   │   └── romaneios/    # Páginas de romaneios
-│   ├── services/         # Serviços e APIs
-│   ├── styles/           # Estilos e temas
-│   ├── utils/            # Funções utilitárias
-│   ├── firebase/         # Configuração e integração com Firebase
-│   ├── App.tsx           # Componente principal
-│   └── index.tsx         # Ponto de entrada
-└── package.json
+│   ├── components/     # Componentes reutilizáveis
+│   ├── pages/         # Páginas da aplicação
+│   ├── services/      # Serviços e integrações
+│   ├── utils/         # Funções utilitárias
+│   └── App.tsx        # Componente principal
+├── public/            # Arquivos públicos
+└── package.json       # Dependências e scripts
 ```
 
-## Status de Implementação
+## 🔧 Configuração
 
-Atualmente o sistema tem implementado:
+### Firebase
 
-- [x] Sistema de temas com Styled Components
-- [x] Layout padrão com Sidebar e Topbar
-- [x] Estrutura de rotas com React Router
-- [x] Integração com Firebase (configuração e mock)
-- [x] Dashboard com cards informativos
-- [x] Página de Romaneio TL (Toda Largura)
-- [x] Página de Romaneio PC (Pacote)
-- [x] Utilitários para cálculo de madeira
-- [x] Serviços para acesso ao banco de dados
+1. Crie um projeto no [Firebase Console](https://console.firebase.google.com/)
+2. Ative o Authentication e o Firestore
+3. Configure as regras de segurança do Firestore
+4. Adicione as credenciais no arquivo `.env`
 
-Pendente de implementação:
+### Impressão
 
-- [ ] Página de Romaneio PES (Cubagem em Pés)
-- [ ] Página de Romaneio TR (Toras)
-- [ ] Páginas de Cadastro de Clientes
-- [ ] Páginas de Cadastro de Espécies
-- [ ] Páginas de Orçamentos
-- [ ] Sistema de autenticação completo
-- [ ] Configurações do sistema
-- [ ] Relatórios
-- [ ] Gráficos na página de Dashboard
+O sistema utiliza templates HTML personalizados para impressão. Os arquivos de template estão localizados em:
+- `src/components/romaneios/PrintRomaneio.tsx`
+- `src/components/orcamentos/PrintOrcamento.tsx`
 
-## Contribuição
+## 👥 Contribuição
 
-Para contribuir com o projeto, siga estas etapas:
-
-1. Faça um fork do repositório
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Faça push para a branch (`git push origin feature/nova-funcionalidade`)
+1. Faça um Fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## Licença
+## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Componentes Reutilizáveis
+## ✨ Agradecimentos
 
-### PageHeader
-O `PageHeader` é um componente que cria uma tarja azul no topo de cada página, com título e descrição. Deve ser usado em todas as páginas para manter a consistência visual do sistema.
+- Desenvolvido por Nelson Brito
+- Contribuidores e usuários do sistema
 
-```tsx
-<PageHeader 
-  title="Título da Página"
-  description="Uma breve descrição da funcionalidade da página."
-/>
-```
+## 📞 Suporte
 
-Para mais detalhes sobre a implementação dos componentes, consulte:
-- `src/docs/StyleGuide.md` - Documentação visual e guia de estilos
-- `CONTRIBUTING.md` - Guia para novos desenvolvedores
+Para suporte e dúvidas, entre em contato através do GitHub ou envie um e-mail para [seu-email@exemplo.com].
+
+---
+⌨️ com ❤️ por [Nelson Brito](https://github.com/nelsonnedes)
