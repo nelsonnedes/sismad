@@ -1,0 +1,79 @@
+[debug] [2025-04-07T01:47:27.062Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-07T01:47:38.795Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-07T01:47:38.798Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-07T01:47:38.828Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-07T01:47:40.257Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-07T01:47:40.259Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-07T01:47:40.260Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-07T12:01:52.609Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-07T12:02:03.109Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-07T12:02:03.112Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-07T12:02:03.135Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-07T12:02:04.570Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-07T12:02:04.570Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-07T12:02:04.571Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-07T14:31:00.183Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-07T14:31:11.225Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-07T14:31:11.234Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-07T14:31:11.257Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-07T14:31:12.489Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-07T14:31:12.490Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-07T14:31:12.490Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-07T18:14:23.833Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-07T18:14:37.615Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-07T18:14:37.618Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-07T18:14:37.642Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-07T18:14:38.892Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-07T18:14:38.893Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-07T18:14:38.893Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-08T10:57:23.048Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-08T10:57:59.004Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-08T10:57:59.007Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-08T10:57:59.031Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-08T10:57:59.934Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-08T10:57:59.935Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-08T10:57:59.935Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-09T17:10:21.567Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-09T17:10:46.711Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-09T17:10:46.714Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-09T17:10:46.743Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-09T17:10:49.695Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-09T17:10:49.696Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-09T17:10:49.697Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-10T11:27:21.158Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-10T11:27:34.184Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-10T11:27:34.188Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-10T11:27:34.234Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-10T11:27:47.952Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-10T11:27:47.953Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-10T11:27:47.954Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2025-04-10T11:47:02.815Z] [Firebase Plugin] Activating Firebase extension.
+[info] [Firebase Plugin] Checked firebase-tools, is up to date!
+[debug] [2025-04-10T11:47:10.880Z] [Firebase Plugin] requireAuthWrapper
+[debug] [2025-04-10T11:47:10.882Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-10T11:47:10.899Z] [Firebase Plugin] VSCode notification server listening on port 40001
+[error] [Firebase Plugin] requireAuth error: Could not load the default credentials. Browse to https://cloud.google.com/docs/authentication/getting-started for more information.
+[debug] [2025-04-10T11:47:12.244Z] Object "/storage" in "firebase.json" has unknown property: {"additionalProperty":"cors"}
+[debug] [2025-04-10T11:47:12.245Z] Field "/storage" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-10T11:47:12.245Z] Field "/storage" in "firebase.json" is possibly invalid: must match a schema in anyOf
